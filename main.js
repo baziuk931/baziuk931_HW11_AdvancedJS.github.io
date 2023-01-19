@@ -7,7 +7,7 @@ async function getRandomChinese(length) {
         let iResult = String.fromCharCode(sign);
         console.log(iResult);
         result += iResult;
-        await delay(300);
+        await delay(50);
         i++;
     }
     return result;
